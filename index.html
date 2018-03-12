@@ -29,7 +29,7 @@
       <p class='no-hits' ng-show='!hits.length'>No Results</p>
       <article class='result' ng-repeat='result in hits track by $id(result)'>
         <div class='ref' title='With a score of {{result._score}}'>{{result._id}}</div>
-        <h2>{{result._source.Subject}}</h2>
+        <a href='/data/{{result._source.Utc.slice(0,4)}}/{{result._id}}/message.html'><h2>{{result._source.Subject}}</h2></a>
         <p>Date: {{result._source.Date}}</p>
         <p>From: <strong title='{{result._source.From[1]}}'>{{result._source.From[0]}}</strong></p>
         <p ng-if='result._source.To'>To: <span ng-repeat='to in result._source.To'><strong title='{{to[1]}}'>{{to[0]}}</strong>, </span></p>
