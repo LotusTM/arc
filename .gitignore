@@ -33,8 +33,8 @@ npm-debug.log
 ## Build folder
 build
 
-## JSPM
-jspm_packages
+## Bower
+bower_components
 
 ## Temporary folder
 temp

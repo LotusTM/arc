@@ -1,0 +1,24 @@
+{
+  "name": "arc",
+  "version": "1.0.0",
+  "description": "Search UI for email archive",
+  "homepage": "https://github.com/LotusTM/arc",
+  "author": "LotusTM (https://github.com/LotusTM)",
+  "contributors": [
+    "Mr.Hyde <npm@2bad.me>"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "elasticsearch",
+    "search"
+  ],
+  "main": "index.html",
+  "ignore": [
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "1.6.9",
+    "angular-animate": "1.6.9",
+    "elasticsearch": "14.1.0"
+  }
+}
